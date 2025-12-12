@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Justin Asis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="link">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Justin Asis</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+       <button class="toggle-btn" onclick="toggleTheme()">Theme</button>
+
+    
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="margin-bottom:10px">Projects</h2>
+
+    <div class="controls">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('html')">HTML</button>
+      <button onclick="filterProjects('css')">CSS</button>
+      <button onclick="filterProjects('js')">JavaScript</button>
+    </div>
+
+    <div class="grid">
+      <div class="card project html">
+        <h3>Website Structure</h3>
+        <p>HTML is used to build the structure of the website. It creates the sections, text, images, and buttons. It is the main foundation of the web design.
+</p>
+        <p><strong>Features:</strong> Dark/light theme, project filter, responsive layout.</p>
+      </div>
+
+      <div class="card project js">
+        <h3>Website Interaction</h3>
+        <p>JavaScript is used to make the website interactive. It controls buttons, forms, and theme changes.</p>
+      </div>
+
+      <div class="card project css">
+        <h3>Design and Layout</h3>
+        <p>CSS is used to make the website look modern and colorful. It adds the background, fonts, spacing, and layout. It also makes the design responsive for mobile and desktop screens.
+</p>
+      </div>
+
+      <div class="card">
+        <h3>Theme Toggle</h3>
+        <video controls>
+          <source src="Justin Asis_s Video.mp4" type="video/mp4">
+          
+        </video>
+        <p style="font-size:13px;opacity:0.9">This short video demonstrates the Theme Toggle.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
